@@ -149,7 +149,7 @@ void chainload_swiss_game(char* game_path, bool passthrough) {
         autoload_arg,
         "AutoBoot=Yes",
         "BS2Boot=No",
-        "Prefer Clean Boot=No",
+        "Prefer Clean Boot=Yes",
         igr_type,
         NULL
     };
